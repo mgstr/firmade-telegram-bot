@@ -1,4 +1,3 @@
-process.env.PGHOST = 'localhost'
 process.env.PGUSER = 'postgres'
 process.env.PGPASSWORD = 'password'
 process.env.PGDATABASE = 'postgres'
