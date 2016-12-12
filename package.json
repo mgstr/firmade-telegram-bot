@@ -1,0 +1,19 @@
+{
+  "name": "firmade-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot for Telegram messenger to search companies registered in Estonia.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andres",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.24.0",
+    "pg": "^6.1.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/mgstr/firmade-telegram-bot.git"
+  }
+}
