@@ -1,7 +1,3 @@
-process.env.PGUSER = 'postgres'
-process.env.PGPASSWORD = 'password'
-process.env.PGDATABASE = 'postgres'
-
 const TelegramBot = require('node-telegram-bot-api')
 const pg = require('pg')
 
