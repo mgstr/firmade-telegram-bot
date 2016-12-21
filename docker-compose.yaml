@@ -1,0 +1,14 @@
+version: '2.1'
+services:
+  db:
+    image: mgstr/firmad
+  bot:
+    image: mgstr/firmade-telegram-bot
+    links:
+    - db
+    environment:
+    - PGHOST
+    - PGUSER
+    - PGPASSWORD
+    - PGDATABASE
+    - TOKEN
