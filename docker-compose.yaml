@@ -7,8 +7,8 @@ services:
     links:
     - db
     environment:
-    - PGHOST
-    - PGUSER
-    - PGPASSWORD
-    - PGDATABASE
+    - PGHOST=db
+    - PGUSER=postgres
+    - PGPASSWORD=password
+    - PGDATABASE=postgres
     - TOKEN
