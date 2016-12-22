@@ -14,7 +14,11 @@ client.connect((err) => {
 
   console.log('connected')
 
-  bot.onText(/^(.+)/, function (msg, match) {
+  bot.onText(/\/version/, function (msg, match) {
+    bot.sendMessage(msg.chat.id, process.env.VERSION)
+  })
+
+  bot.onText(/^([^/].+)/, function (msg, match) {
 
     const chatId = msg.chat.id
     const q = match[1]

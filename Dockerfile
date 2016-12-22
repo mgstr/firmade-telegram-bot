@@ -4,6 +4,10 @@ MAINTAINER mgstr
 
 RUN mkdir -p /src
 
+ARG version
+
+ENV VERSION ${version}
+
 COPY package.json /src
 
 WORKDIR /src
