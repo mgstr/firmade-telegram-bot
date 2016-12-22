@@ -5,10 +5,7 @@ Use [mgstr/firamad](https://github.com/mgstr/firmad) image with pre-populated Po
 
 ## Build a docker image with bot
 
-```
-docker build -t mgstr/firmade-telegram-bot .
-docker push mgstr/firmade-telegram-bot
-```
+run `./build.sh <version>`, where \<version\> is a required parameter
 
 ## Start bot
 
